@@ -3,7 +3,6 @@ import { type Article } from '@/libs/microcms';
 import PublishedDate from '../Date';
 import styles from './index.module.css';
 import TagList from '../TagList';
-import Profile from '../Profile';
 
 type Props = {
   data: Article;
