@@ -20,10 +20,8 @@ export async function generateMetadata({ params, searchParams }: Props): Promise
 
   return {
     title: data.title,
-    description: data.description,
     openGraph: {
       title: data.title,
-      description: data.description,
       images: [data?.thumbnail?.url || ''],
     },
   };
